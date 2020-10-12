@@ -1,52 +1,69 @@
 
-
+body{
+    background-color: #fff;
+}
 header {
-    height: 100%;
-    width: 80px;
+    
 }
 
 header > div  {
-    display:flex;
-    width:80%;
-    margin: 0 auto;
-    max-width: 1000px;
+    display: flex;
+    width:40%;
+    margin:0 auto;
     justify-content: space-between;
     align-items: center;
+ 
+   
+
 }
 header ul{
     width: 300px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 header ul li a {
-    color: gray;
+    color:#24292e;
     font-size: 18px;
 }
 
-.top-box {
+.top-boxes {
     width: 100%;
     height: 300px;
+    
 }
-.top-box > div{
+
+.top-boxes > div{
     max-width: 1000px;
     height: 100%;
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+
+}
+.box-1{
     
 }
-.top-box h2{
-
-}
 .about-me{
-
+    max-width: 1000px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;    
+    display: flex;
+    flex-direction: column;
 }
 
 .activity {
-
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: right;
+}
+.activity img {
+    width: 50%;
+    float: right;
+    margin-right: auto;
 }
 h1 {
     font-size: 30px;
@@ -57,11 +74,10 @@ h2 {
 h3  {
     font-size: 16px;
 }
-p {
-    font-size: 12px;
-}
+
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 8px;
 }
