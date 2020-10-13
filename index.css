@@ -3,6 +3,8 @@ body{
     background-color: #fff;
 }
 header {
+    height: 100px;
+    width: 100%;
     
 }
 
@@ -12,12 +14,12 @@ header > div  {
     margin:0 auto;
     justify-content: space-between;
     align-items: center;
- 
-   
+    padding: 15px; 
 
 }
+
 header ul{
-    width: 300px;
+    width: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -25,46 +27,57 @@ header ul{
 header ul li a {
     color:#24292e;
     font-size: 18px;
+    padding: 10px;
 }
 
-.top-boxes {
+.container1 {
+width: 100%;
+height: 300px;
+display: flex;
+}
+
+.box-1 {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border: solid gray;
+    display: flex;
+}
+.box-2{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border: solid gray;
+    display: flex;
+}
+
+.container2 {
     width: 100%;
     height: 300px;
-    
-}
-
-.top-boxes > div{
-    max-width: 1000px;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: right;
+}
+.container2 img {
+    max-width: 75%;
+    float: right;
+    padding:10px;
+}
 
-}
-.box-1{
-    
-}
-.about-me{
-    max-width: 1000px;
-    height: 100%;
+.container3 {
     width: 100%;
     margin: 0 auto;    
     display: flex;
     flex-direction: column;
 }
 
-.activity {
-    width: 100%;
-    height: 300px;
+.profile {
     display: flex;
-    justify-content: right;
+    background-color: purple;
+    border-radius: 50%;
+    width: 300px;
+
 }
-.activity img {
-    width: 50%;
-    float: right;
-    margin-right: auto;
-}
+
 h1 {
     font-size: 30px;
 }
@@ -80,4 +93,5 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin: 8px;
+    list-style-type: none;
 }
